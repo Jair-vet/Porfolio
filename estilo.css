@@ -562,10 +562,11 @@ html{
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
+    border-radius: 10px;
     width: 100%;
     padding: 18px;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-color: #252A2E;
     color: #fff;
     font-size: 18px;
@@ -596,8 +597,13 @@ html{
 .contacto button:hover .overlay{
     width: 100%;
 }
+.contacto .col{
+    display: flex;
+    flex-direction: column;
+}
 .contacto .col img{
     width: 100%;
+    border-radius: 10px;
 }
 .contacto .col .info{
     position: absolute;
