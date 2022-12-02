@@ -302,6 +302,14 @@ html{
     0%{width: 0%;}
     100%{width: 75%;}
 }
+.skills .skill .taildwind{
+    width: 0%;
+    animation: 2s taildwind forwards;
+}
+@keyframes taildwind {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
 
 .skills .skill .pwa{
     width: 0%;

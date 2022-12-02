@@ -24,13 +24,14 @@ function efectoHabilidades(){
         habilidades[0].classList.add("git");
         habilidades[1].classList.add("docker");
         habilidades[2].classList.add("htmlcss");
-        habilidades[3].classList.add("pwa");
-        habilidades[4].classList.add("postman");
-        habilidades[5].classList.add("javascript");
-        habilidades[6].classList.add("react");
-        habilidades[7].classList.add("vue");
-        habilidades[8].classList.add("node");
-        habilidades[9].classList.add("sql");
+        habilidades[3].classList.add("taildwind");
+        habilidades[4].classList.add("pwa");
+        habilidades[5].classList.add("postman");
+        habilidades[6].classList.add("javascript");
+        habilidades[7].classList.add("react");
+        habilidades[8].classList.add("vue");
+        habilidades[9].classList.add("node");
+        habilidades[10].classList.add("sql");
     }
 }
 
