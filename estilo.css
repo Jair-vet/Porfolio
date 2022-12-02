@@ -613,6 +613,7 @@ html{
     max-swidth: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
 .contacto .col .info ul{
     list-style: none;
