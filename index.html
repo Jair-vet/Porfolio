@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
@@ -333,68 +334,40 @@
     </section>
 
     <!-- SECCION PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <a href="https://proyectomodular-production.up.railway.app/" target="_blank" >
-                        <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670016444/Applications%20made/QuickJobs.png" alt="QuickJobs App">
-                        <div class="overlay">
-                            <h3>QuickJobs APP</h3>
-                            <p>Javascript / Node</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <a href="https://eclectic-starship-d44a61.netlify.app/" target="_blank" >
-                        <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014137/Applications%20made/PokemonApp_w59fsv.png" alt="pokemon App">
-                        <div class="overlay">
-                            <h3>Pokemon APP</h3>
-                            <p>Vue Js</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <a href="https://jair-vet.github.io/TechPRO/" target="_blank" >
-                        <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014703/Applications%20made/Tech_Pro_ugxttz.png" alt="Tech Pro">
-                        <div class="overlay">
-                            <h3>Tech Pro</h3>
-                            <p>Html / Css</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <a href="https://jair-vet.github.io/Nucleus_app/" target="_blank" >
-                        <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014703/Applications%20made/NucleosWallet_zlsb8l.png" alt="nucleus App">
-                        <div class="overlay">
-                            <h3>Nucleus APP</h3>
-                            <p>Html / Css</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <a href="https://wonderful-euclid-05642b.netlify.app/" target="_blank" >
-                        <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014703/Applications%20made/Tablon_de_Tareas_lurm8b.png" alt="Notas App">
-                        <div class="overlay">
-                            <h3>Notas APP</h3>
-                            <p>React Js</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="proyecto">
-                    <a href="https://super-dieffenbachia-a85345.netlify.app/#/daybook" target="_blank" >
-                        <img src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670027210/Applications%20made/JournalApp_g39ivy.png" alt="DayBook App">
-                        <div class="overlay">
-                            <h3>Daybook APP</h3>
-                            <p>Vue Js</p>
-                        </div>
-                    </a>
-                </div>
-                
+    <section id="portfolio" class="portfolio" class="bg-dark-pattern">
+        <div class="container mx-auto text-white overflow-visible flex justify-center p-1">
+            <h2 class="text-center">PORFOLIO</h2>
+        </div>
+        <div class="border-dotted border-2 border-emerald-500 "></div>
+    </section>
+    <section class="section-padding-xl crash bg-dark-pattern">
+        <div class="container">
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+                <a href="https://proyectomodular-production.up.railway.app/" target="_blank" >
+                    <img class="object-cover h-40" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670016444/Applications%20made/QuickJobs.png" alt="QuickJobs App">
+                </a>
+                <a href="https://jair-vet.github.io/TechPRO/" target="_blank" >
+                    <img class="object-cover h-40" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014703/Applications%20made/Tech_Pro_ugxttz.png" alt="Tech Pro">
+                </a>
+                <a href="https://jair-vet.github.io/Nucleus_app/" target="_blank" >
+                    <img class="object-cover h-40" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014703/Applications%20made/NucleosWallet_zlsb8l.png" alt="nucleus App">
+                </a>
+                <a href="https://wonderful-euclid-05642b.netlify.app/" target="_blank" >
+                    <img class="object-cover h-40" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014703/Applications%20made/Tablon_de_Tareas_lurm8b.png" alt="Notas App">
+                </a>
+                <a href="https://eclectic-starship-d44a61.netlify.app/" target="_blank" >
+                    <img class="object-cover h-40" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670014137/Applications%20made/PokemonApp_w59fsv.png" alt="pokemon App">
+                </a>
+                <a href="https://super-dieffenbachia-a85345.netlify.app/#/daybook" target="_blank" >
+                    <img class="object-cover h-40" src="https://res.cloudinary.com/dytlbyofu/image/upload/v1670027210/Applications%20made/JournalApp_g39ivy.png" alt="DayBook App">
+                </a>
             </div>
         </div>
     </section>
+    <section class="bg-dark-pattern">
+        <div class="border-dotted border-2 border-emerald-500 "></div>
+    </section>
+    
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
@@ -402,7 +375,7 @@
             <h2>CONTAC</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
+                <div class="container col">
                     <input type="text" placeholder="Tú Nombre">
                     <input type="text" placeholder="Número telefónico">
                     <input type="text" placeholder="Dirección de correo">
@@ -414,10 +387,10 @@
                     </button>
                 </div>
                 <!-- Mapa -->
-                <div class="col">
-                    <img src="img/adress.png" alt="">
+                <div class="container col">
+                    <img class="object-cover h-auto" src="img/adress.png" alt="">
                     <div class="info">
-                        <ul>
+                        <ul class="">
                             <li>
                                 <i class="fa-solid fa-location-dot"></i>
                                 Mexico, Guadalajara Jal.
