@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
 }
+body,
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
@@ -495,6 +496,9 @@ html{
 }
 .section-padding-xl {
     padding: 60px 20px;
+}
+.section-padding-md {
+    padding: 20px 10px;
 }
 .container {
     max-width: 1100px;
